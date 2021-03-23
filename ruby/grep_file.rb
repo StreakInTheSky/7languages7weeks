@@ -7,7 +7,7 @@ class Grepper
   def grep(filename)
     lines = File.readlines(filename, :chomp => true)
     lines.each_index do |i|
-      puts lines[i] if lines[i].match?(@phrase)
+      puts "#{i+1} #{lines[i]}" if lines[i].match?(@phrase)
     end
   end
 end
