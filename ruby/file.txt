@@ -1,0 +1,2 @@
+Ruby was created by matz.
+Matz is a good guy.
